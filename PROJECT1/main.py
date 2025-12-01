@@ -1,10 +1,10 @@
 # Expense Tracker Project
 
 expenseslist = [] # list of expense in form of dictonary
-print("====Welcome to Expense Tracker====")
+print("============Welcome to Expense Tracker=============")
 
 while True:
-    print("======MENU======")
+    print("========MENU========")
     print("1. Add Expenses")
     print("2. View All Expenses")
     print("3. View Total Expenses")
@@ -26,7 +26,7 @@ while True:
         }
     
         expenseslist.append(expense)
-        print("\n********Expenses Added Succesfully**********\n")
+        print("\n**********Expenses Added Succesfully************\n")
     
     # 2. VIEW ALL EXPENSES
     
@@ -34,7 +34,7 @@ while True:
         if(len(expenseslist)==0):
             print("NO Expenses Added Till Now. ")
         else:
-            print("======THis is Your All Expenses======")
+            print("=========THis is Your All Expenses=========")
             count = 1
             for everyexpense in expenseslist:
                 print("Expense Number",count,"->","On date",everyexpense["date"],",Of type:",everyexpense["category"],",description:",everyexpense["description"],",amount",everyexpense["amount"])
@@ -50,7 +50,7 @@ while True:
     
     # 4.EXIT 
     elif(choice==4):
-        print("=========THANK YOU FOR USINNG EXPENSE TRACKER======")
+        print("===========THANK YOU FOR USINNG EXPENSE TRACKER===========")
         break
     else:
         print("INVALID COICE. TRY AGAIN")
