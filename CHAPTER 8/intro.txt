@@ -1,0 +1,6 @@
+- Created by Guido van Rossum in 1991, Python emphasizes clear syntax similar to English.
+- It supports multiple paradigms: object-oriented, functional, and procedural programming.
+- Python is widely used in web development, data science, automation, and artificial intelligence.
+- Its interpreted nature allows interactive coding without compilation, making it beginner-friendly.
+- With extensive libraries and cross-platform support, Python enables rapid prototyping and production-ready applications.
+
